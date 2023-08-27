@@ -1,4 +1,4 @@
-## TWRP device tree for the Samsung Exynos 9611 devices
+## Orange Fox device tree for the Samsung Exynos 9611 devices
 Current targets:
 - gta4xl
 - m31
