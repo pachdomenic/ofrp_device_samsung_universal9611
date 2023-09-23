@@ -25,8 +25,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/$(DEVICE)/rootdir/recovery.fstab
 
 # TWRP flags
 TW_MAX_BRIGHTNESS := 365
-TW_Y_OFFSET := 78
-TW_H_OFFSET := -78
 TW_USE_SAMSUNG_HAPTICS := true
 
 include $(DEVICE_PATH)/BoardConfig.mk
