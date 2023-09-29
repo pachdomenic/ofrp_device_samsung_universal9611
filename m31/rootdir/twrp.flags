@@ -46,5 +46,5 @@
 /omr		ext4	/dev/block/by-name/omr			flags=display="Logs (OMR)";backup=1
 
 # External Stuff
-/external_sd    vfat    /dev/block/mmcblk0p1 /dev/block/mmcblk0 flags=display="External SDCard";storage;wipeingui;removable;
-/usb-otg        vfat    /dev/block/sdf1 /dev/block/sdf          flags=display="USB OTG";storage;wipeingui;removable;
+/sdcard1        vfat    /dev/block/mmcblk0p1 /dev/block/mmcblk0 flags=display="MicroSD";storage;wipeingui;removable;
+/usb-otg        vfat    /dev/block/sdf1 /dev/block/sdf          flags=display="USB-Storage";storage;wipeingui;removable;
